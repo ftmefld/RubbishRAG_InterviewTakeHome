@@ -1,0 +1,262 @@
+{
+  "selection_rule": "Hit@5 -> Hit@3 -> MRR -> closest to baseline",
+  "baseline_weight": 0.5,
+  "folds": [
+    {
+      "fold": 1,
+      "train_ids": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v11",
+        "v12",
+        "v13",
+        "v14",
+        "v16",
+        "v17",
+        "v18",
+        "v19"
+      ],
+      "test_ids": [
+        "v0",
+        "v5",
+        "v10",
+        "v15"
+      ],
+      "selected_weight": 0.75,
+      "train_selected_metrics": {
+        "hit3": 0.4375,
+        "hit5": 0.5625,
+        "mrr": 0.38958333333333334
+      },
+      "test_selected_metrics": {
+        "hit3": 0.25,
+        "hit5": 0.75,
+        "mrr": 0.2652777777777778
+      },
+      "test_baseline_metrics": {
+        "hit3": 0.5,
+        "hit5": 0.75,
+        "mrr": 0.30654761904761907
+      }
+    },
+    {
+      "fold": 2,
+      "train_ids": [
+        "v0",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v7",
+        "v8",
+        "v9",
+        "v10",
+        "v12",
+        "v13",
+        "v14",
+        "v15",
+        "v17",
+        "v18",
+        "v19"
+      ],
+      "test_ids": [
+        "v1",
+        "v6",
+        "v11",
+        "v16"
+      ],
+      "selected_weight": 0.65,
+      "train_selected_metrics": {
+        "hit3": 0.4375,
+        "hit5": 0.6875,
+        "mrr": 0.39687500000000003
+      },
+      "test_selected_metrics": {
+        "hit3": 0.25,
+        "hit5": 0.25,
+        "mrr": 0.125
+      },
+      "test_baseline_metrics": {
+        "hit3": 0.0,
+        "hit5": 0.25,
+        "mrr": 0.10416666666666666
+      }
+    },
+    {
+      "fold": 3,
+      "train_ids": [
+        "v0",
+        "v1",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v8",
+        "v9",
+        "v10",
+        "v11",
+        "v13",
+        "v14",
+        "v15",
+        "v16",
+        "v18",
+        "v19"
+      ],
+      "test_ids": [
+        "v2",
+        "v7",
+        "v12",
+        "v17"
+      ],
+      "selected_weight": 0.75,
+      "train_selected_metrics": {
+        "hit3": 0.375,
+        "hit5": 0.625,
+        "mrr": 0.3621527777777778
+      },
+      "test_selected_metrics": {
+        "hit3": 0.5,
+        "hit5": 0.5,
+        "mrr": 0.375
+      },
+      "test_baseline_metrics": {
+        "hit3": 0.5,
+        "hit5": 0.5,
+        "mrr": 0.5
+      }
+    },
+    {
+      "fold": 4,
+      "train_ids": [
+        "v0",
+        "v1",
+        "v2",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v9",
+        "v10",
+        "v11",
+        "v12",
+        "v14",
+        "v15",
+        "v16",
+        "v17",
+        "v19"
+      ],
+      "test_ids": [
+        "v3",
+        "v8",
+        "v13",
+        "v18"
+      ],
+      "selected_weight": 0.85,
+      "train_selected_metrics": {
+        "hit3": 0.375,
+        "hit5": 0.625,
+        "mrr": 0.375
+      },
+      "test_selected_metrics": {
+        "hit3": 0.25,
+        "hit5": 0.5,
+        "mrr": 0.3
+      },
+      "test_baseline_metrics": {
+        "hit3": 0.5,
+        "hit5": 0.5,
+        "mrr": 0.375
+      }
+    },
+    {
+      "fold": 5,
+      "train_ids": [
+        "v0",
+        "v1",
+        "v2",
+        "v3",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v10",
+        "v11",
+        "v12",
+        "v13",
+        "v15",
+        "v16",
+        "v17",
+        "v18"
+      ],
+      "test_ids": [
+        "v4",
+        "v9",
+        "v14",
+        "v19"
+      ],
+      "selected_weight": 0.75,
+      "train_selected_metrics": {
+        "hit3": 0.375,
+        "hit5": 0.5625,
+        "mrr": 0.3184027777777778
+      },
+      "test_selected_metrics": {
+        "hit3": 0.5,
+        "hit5": 0.75,
+        "mrr": 0.55
+      },
+      "test_baseline_metrics": {
+        "hit3": 0.5,
+        "hit5": 0.75,
+        "mrr": 0.55
+      }
+    }
+  ],
+  "selected_weight_frequency": {
+    "0.75": 3,
+    "0.65": 1,
+    "0.85": 1
+  },
+  "pooled_cv_selected": {
+    "hit3": 0.35,
+    "hit5": 0.55,
+    "mrr": 0.32305555555555554
+  },
+  "pooled_cv_baseline": {
+    "hit3": 0.4,
+    "hit5": 0.55,
+    "mrr": 0.36714285714285716
+  },
+  "improved": [
+    "v1",
+    "v5"
+  ],
+  "regressed": [
+    "v0",
+    "v2",
+    "v8"
+  ],
+  "unchanged": [
+    "v3",
+    "v4",
+    "v6",
+    "v7",
+    "v9",
+    "v10",
+    "v11",
+    "v12",
+    "v13",
+    "v14",
+    "v15",
+    "v16",
+    "v17",
+    "v18",
+    "v19"
+  ]
+}

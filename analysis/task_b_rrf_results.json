@@ -1,0 +1,1594 @@
+{
+  "summary": {
+    "candidate_pool": 20,
+    "rrf_k": 60,
+    "queries": 20,
+    "server_fused_hit3": 0.4,
+    "server_fused_hit5": 0.55,
+    "rrf_hit3": 0.4,
+    "rrf_hit5": 0.45,
+    "improved_queries": [
+      "v1",
+      "v19"
+    ],
+    "regressed_queries": [
+      "v0",
+      "v5",
+      "v10",
+      "v15"
+    ],
+    "unchanged_queries": [
+      "v2",
+      "v4",
+      "v7",
+      "v8",
+      "v11",
+      "v13",
+      "v14"
+    ],
+    "mean_rank_delta": -0.8461538461538461,
+    "median_rank_delta": 0
+  },
+  "results": [
+    {
+      "id": "v0",
+      "query": "من یه بار فقط جریمه مالیاتی برام بریدن، چه طوری حذفش کنم؟",
+      "gold_doc_id": 173,
+      "fused_rank": 3,
+      "bm25_rank": 14,
+      "dense_rank": 3,
+      "rrf_rank": 7,
+      "delta": -4,
+      "fused_hit3": true,
+      "fused_hit5": true,
+      "rrf_hit3": false,
+      "rrf_hit5": false,
+      "top5_fused": [
+        {
+          "doc_id": 66,
+          "bm25": 11.0639,
+          "dense": 0.126,
+          "fused": 1.0
+        },
+        {
+          "doc_id": 271,
+          "bm25": 6.3756,
+          "dense": 0.1021,
+          "fused": 0.6932
+        },
+        {
+          "doc_id": 173,
+          "bm25": 4.2479,
+          "dense": 0.1021,
+          "fused": 0.597
+        },
+        {
+          "doc_id": 118,
+          "bm25": 5.268,
+          "dense": 0.0902,
+          "fused": 0.5959
+        },
+        {
+          "doc_id": 9002,
+          "bm25": 4.4822,
+          "dense": 0.0962,
+          "fused": 0.5844
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 66,
+          "bm25_rank": 1,
+          "dense_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "doc_id": 271,
+          "bm25_rank": 4,
+          "dense_rank": 2,
+          "rrf_score": 0.031754032258064516
+        },
+        {
+          "doc_id": 118,
+          "bm25_rank": 7,
+          "dense_rank": 5,
+          "rrf_score": 0.030309988518943745
+        },
+        {
+          "doc_id": 9002,
+          "bm25_rank": 9,
+          "dense_rank": 6,
+          "rrf_score": 0.02964426877470356
+        },
+        {
+          "doc_id": 273,
+          "bm25_rank": 2,
+          "dense_rank": 14,
+          "rrf_score": 0.02964254577157803
+        }
+      ]
+    },
+    {
+      "id": "v1",
+      "query": "اگر شرکت محکومیت مالی داشته باشد، چقدر رتبه‌اش کاهش پیدا میکنه؟",
+      "gold_doc_id": 56,
+      "fused_rank": 4,
+      "bm25_rank": 1,
+      "dense_rank": 7,
+      "rrf_rank": 3,
+      "delta": 1,
+      "fused_hit3": false,
+      "fused_hit5": true,
+      "rrf_hit3": true,
+      "rrf_hit5": true,
+      "top5_fused": [
+        {
+          "doc_id": 330,
+          "bm25": 9.2939,
+          "dense": 0.2611,
+          "fused": 0.8928
+        },
+        {
+          "doc_id": 19,
+          "bm25": 7.4535,
+          "dense": 0.3015,
+          "fused": 0.8687
+        },
+        {
+          "doc_id": 9106,
+          "bm25": 9.7915,
+          "dense": 0.2166,
+          "fused": 0.8436
+        },
+        {
+          "doc_id": 56,
+          "bm25": 10.1076,
+          "dense": 0.1931,
+          "fused": 0.8203
+        },
+        {
+          "doc_id": 234,
+          "bm25": 9.8931,
+          "dense": 0.1861,
+          "fused": 0.798
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 330,
+          "bm25_rank": 4,
+          "dense_rank": 2,
+          "rrf_score": 0.031754032258064516
+        },
+        {
+          "doc_id": 9106,
+          "bm25_rank": 3,
+          "dense_rank": 3,
+          "rrf_score": 0.031746031746031744
+        },
+        {
+          "doc_id": 56,
+          "bm25_rank": 1,
+          "dense_rank": 7,
+          "rrf_score": 0.03131881575727918
+        },
+        {
+          "doc_id": 238,
+          "bm25_rank": 6,
+          "dense_rank": 4,
+          "rrf_score": 0.030776515151515152
+        },
+        {
+          "doc_id": 234,
+          "bm25_rank": 2,
+          "dense_rank": 9,
+          "rrf_score": 0.030621785881252923
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "query": "اگر یک چک برگشتی داشته باشم اما بلافاصله (ظرف ۲۴ ساعت) مبلغ را تأمین و چک را رفع سوءاثر کنم، باز هم در سابقه اعتباری من ثبت می‌شود؟",
+      "gold_doc_id": 282,
+      "fused_rank": 1,
+      "bm25_rank": 2,
+      "dense_rank": 1,
+      "rrf_rank": 1,
+      "delta": 0,
+      "fused_hit3": true,
+      "fused_hit5": true,
+      "rrf_hit3": true,
+      "rrf_hit5": true,
+      "top5_fused": [
+        {
+          "doc_id": 282,
+          "bm25": 27.2233,
+          "dense": 0.3508,
+          "fused": 0.9719
+        },
+        {
+          "doc_id": 244,
+          "bm25": 28.8426,
+          "dense": 0.329,
+          "fused": 0.9689
+        },
+        {
+          "doc_id": 225,
+          "bm25": 27.1629,
+          "dense": 0.3462,
+          "fused": 0.9642
+        },
+        {
+          "doc_id": 230,
+          "bm25": 24.6721,
+          "dense": 0.3363,
+          "fused": 0.9071
+        },
+        {
+          "doc_id": 181,
+          "bm25": 18.1899,
+          "dense": 0.2826,
+          "fused": 0.7181
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 282,
+          "bm25_rank": 2,
+          "dense_rank": 1,
+          "rrf_score": 0.03252247488101534
+        },
+        {
+          "doc_id": 244,
+          "bm25_rank": 1,
+          "dense_rank": 4,
+          "rrf_score": 0.032018442622950824
+        },
+        {
+          "doc_id": 225,
+          "bm25_rank": 3,
+          "dense_rank": 2,
+          "rrf_score": 0.03200204813108039
+        },
+        {
+          "doc_id": 230,
+          "bm25_rank": 4,
+          "dense_rank": 3,
+          "rrf_score": 0.03149801587301587
+        },
+        {
+          "doc_id": 181,
+          "bm25_rank": 11,
+          "dense_rank": 6,
+          "rrf_score": 0.029236022193768675
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "query": "۴۸۰ شدم. چرا؟",
+      "gold_doc_id": 311,
+      "fused_rank": null,
+      "bm25_rank": null,
+      "dense_rank": null,
+      "rrf_rank": null,
+      "delta": null,
+      "fused_hit3": false,
+      "fused_hit5": false,
+      "rrf_hit3": false,
+      "rrf_hit5": false,
+      "top5_fused": [
+        {
+          "doc_id": 110,
+          "bm25": 7.0553,
+          "dense": 0.0891,
+          "fused": 1.0
+        },
+        {
+          "doc_id": 0,
+          "bm25": 0.0,
+          "dense": 0.0,
+          "fused": 0.0
+        },
+        {
+          "doc_id": 1,
+          "bm25": 0.0,
+          "dense": 0.0,
+          "fused": 0.0
+        },
+        {
+          "doc_id": 1,
+          "bm25": 0.0,
+          "dense": 0.0,
+          "fused": 0.0
+        },
+        {
+          "doc_id": 2,
+          "bm25": 0.0,
+          "dense": 0.0,
+          "fused": 0.0
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 110,
+          "bm25_rank": 1,
+          "dense_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "doc_id": 0,
+          "bm25_rank": 2,
+          "dense_rank": 2,
+          "rrf_score": 0.03225806451612903
+        },
+        {
+          "doc_id": 1,
+          "bm25_rank": 3,
+          "dense_rank": 3,
+          "rrf_score": 0.031746031746031744
+        },
+        {
+          "doc_id": 1,
+          "bm25_rank": 4,
+          "dense_rank": 4,
+          "rrf_score": 0.03125
+        },
+        {
+          "doc_id": 2,
+          "bm25_rank": 5,
+          "dense_rank": 5,
+          "rrf_score": 0.03076923076923077
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "query": "برای اشخاص حقوقی، رخدادهای عملیاتی مانند «تعطیلی موقت» یا «توقف تولید» در گزارش اعتباری بازتاب دارد؟",
+      "gold_doc_id": 137,
+      "fused_rank": 1,
+      "bm25_rank": 1,
+      "dense_rank": 1,
+      "rrf_rank": 1,
+      "delta": 0,
+      "fused_hit3": true,
+      "fused_hit5": true,
+      "rrf_hit3": true,
+      "rrf_hit5": true,
+      "top5_fused": [
+        {
+          "doc_id": 137,
+          "bm25": 40.8364,
+          "dense": 0.45,
+          "fused": 1.0
+        },
+        {
+          "doc_id": 288,
+          "bm25": 14.4222,
+          "dense": 0.3381,
+          "fused": 0.5522
+        },
+        {
+          "doc_id": 146,
+          "bm25": 9.3882,
+          "dense": 0.2785,
+          "fused": 0.4244
+        },
+        {
+          "doc_id": 264,
+          "bm25": 10.1675,
+          "dense": 0.2673,
+          "fused": 0.4214
+        },
+        {
+          "doc_id": 291,
+          "bm25": 9.362,
+          "dense": 0.2552,
+          "fused": 0.3981
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 137,
+          "bm25_rank": 1,
+          "dense_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "doc_id": 288,
+          "bm25_rank": 2,
+          "dense_rank": 2,
+          "rrf_score": 0.03225806451612903
+        },
+        {
+          "doc_id": 264,
+          "bm25_rank": 7,
+          "dense_rank": 4,
+          "rrf_score": 0.03055037313432836
+        },
+        {
+          "doc_id": 125,
+          "bm25_rank": 5,
+          "dense_rank": 9,
+          "rrf_score": 0.029877369007803793
+        },
+        {
+          "doc_id": 146,
+          "bm25_rank": 13,
+          "dense_rank": 3,
+          "rrf_score": 0.029571646010002173
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "query": "اگر در قراردادهایی که شرکت به‌عنوان ضامن حضور دارد، اقساط با تأخیر بازپرداخت شوند اما پرداخت‌ در نهایت انجام شود، آیا این تأخیر بر رتبه اعتباری شرکت ضامن تأثیر دارد؟",
+      "gold_doc_id": 9,
+      "fused_rank": 7,
+      "bm25_rank": 4,
+      "dense_rank": 18,
+      "rrf_rank": 10,
+      "delta": -3,
+      "fused_hit3": false,
+      "fused_hit5": false,
+      "rrf_hit3": false,
+      "rrf_hit5": false,
+      "top5_fused": [
+        {
+          "doc_id": 276,
+          "bm25": 28.3417,
+          "dense": 0.4128,
+          "fused": 1.0
+        },
+        {
+          "doc_id": 299,
+          "bm25": 27.4316,
+          "dense": 0.3286,
+          "fused": 0.882
+        },
+        {
+          "doc_id": 269,
+          "bm25": 23.4958,
+          "dense": 0.3479,
+          "fused": 0.8358
+        },
+        {
+          "doc_id": 324,
+          "bm25": 24.6721,
+          "dense": 0.3055,
+          "fused": 0.8053
+        },
+        {
+          "doc_id": 51,
+          "bm25": 22.6662,
+          "dense": 0.3244,
+          "fused": 0.7927
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 276,
+          "bm25_rank": 1,
+          "dense_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "doc_id": 299,
+          "bm25_rank": 2,
+          "dense_rank": 3,
+          "rrf_score": 0.03200204813108039
+        },
+        {
+          "doc_id": 269,
+          "bm25_rank": 5,
+          "dense_rank": 2,
+          "rrf_score": 0.0315136476426799
+        },
+        {
+          "doc_id": 51,
+          "bm25_rank": 7,
+          "dense_rank": 4,
+          "rrf_score": 0.03055037313432836
+        },
+        {
+          "doc_id": 205,
+          "bm25_rank": 6,
+          "dense_rank": 6,
+          "rrf_score": 0.030303030303030304
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "query": "شرکت سودآوره ولی امتیاز نداره چرا؟",
+      "gold_doc_id": 86,
+      "fused_rank": null,
+      "bm25_rank": null,
+      "dense_rank": null,
+      "rrf_rank": null,
+      "delta": null,
+      "fused_hit3": false,
+      "fused_hit5": false,
+      "rrf_hit3": false,
+      "rrf_hit5": false,
+      "top5_fused": [
+        {
+          "doc_id": 266,
+          "bm25": 7.4998,
+          "dense": 0.2041,
+          "fused": 0.875
+        },
+        {
+          "doc_id": 121,
+          "bm25": 3.3045,
+          "dense": 0.2722,
+          "fused": 0.7203
+        },
+        {
+          "doc_id": 122,
+          "bm25": 3.3045,
+          "dense": 0.2722,
+          "fused": 0.7203
+        },
+        {
+          "doc_id": 51,
+          "bm25": 5.3116,
+          "dense": 0.1806,
+          "fused": 0.6859
+        },
+        {
+          "doc_id": 282,
+          "bm25": 5.4658,
+          "dense": 0.1571,
+          "fused": 0.6531
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 266,
+          "bm25_rank": 1,
+          "dense_rank": 4,
+          "rrf_score": 0.032018442622950824
+        },
+        {
+          "doc_id": 121,
+          "bm25_rank": 9,
+          "dense_rank": 1,
+          "rrf_score": 0.030886196246139225
+        },
+        {
+          "doc_id": 51,
+          "bm25_rank": 3,
+          "dense_rank": 7,
+          "rrf_score": 0.030798389007344232
+        },
+        {
+          "doc_id": 122,
+          "bm25_rank": 10,
+          "dense_rank": 2,
+          "rrf_score": 0.0304147465437788
+        },
+        {
+          "doc_id": 282,
+          "bm25_rank": 2,
+          "dense_rank": 12,
+          "rrf_score": 0.030017921146953404
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "query": "اگر شرکت در یک بانک خاص سابقه تاخیر در پرداخت بدهی داشته باشد، آیا این موضوع بر دریافت تسهیلات از سایر بانک‌ها تاثیر می‌گذارد؟",
+      "gold_doc_id": 76,
+      "fused_rank": 1,
+      "bm25_rank": 1,
+      "dense_rank": 1,
+      "rrf_rank": 1,
+      "delta": 0,
+      "fused_hit3": true,
+      "fused_hit5": true,
+      "rrf_hit3": true,
+      "rrf_hit5": true,
+      "top5_fused": [
+        {
+          "doc_id": 76,
+          "bm25": 19.437,
+          "dense": 0.3934,
+          "fused": 1.0
+        },
+        {
+          "doc_id": 156,
+          "bm25": 18.0937,
+          "dense": 0.2862,
+          "fused": 0.8292
+        },
+        {
+          "doc_id": 182,
+          "bm25": 16.0615,
+          "dense": 0.3108,
+          "fused": 0.8083
+        },
+        {
+          "doc_id": 84,
+          "bm25": 15.583,
+          "dense": 0.3085,
+          "fused": 0.793
+        },
+        {
+          "doc_id": 237,
+          "bm25": 13.0766,
+          "dense": 0.3267,
+          "fused": 0.7516
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 76,
+          "bm25_rank": 1,
+          "dense_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "doc_id": 182,
+          "bm25_rank": 4,
+          "dense_rank": 3,
+          "rrf_score": 0.03149801587301587
+        },
+        {
+          "doc_id": 156,
+          "bm25_rank": 2,
+          "dense_rank": 6,
+          "rrf_score": 0.03128054740957967
+        },
+        {
+          "doc_id": 84,
+          "bm25_rank": 6,
+          "dense_rank": 4,
+          "rrf_score": 0.030776515151515152
+        },
+        {
+          "doc_id": 62,
+          "bm25_rank": 3,
+          "dense_rank": 16,
+          "rrf_score": 0.029030910609857977
+        }
+      ]
+    },
+    {
+      "id": "v8",
+      "query": "آیا امکان مقایسه امتیاز اعتباری یک شخص با شخص دیگر وجود دارد؟",
+      "gold_doc_id": 290,
+      "fused_rank": 2,
+      "bm25_rank": 8,
+      "dense_rank": 1,
+      "rrf_rank": 2,
+      "delta": 0,
+      "fused_hit3": true,
+      "fused_hit5": true,
+      "rrf_hit3": true,
+      "rrf_hit5": true,
+      "top5_fused": [
+        {
+          "doc_id": 211,
+          "bm25": 15.8785,
+          "dense": 0.2935,
+          "fused": 0.9056
+        },
+        {
+          "doc_id": 290,
+          "bm25": 10.7055,
+          "dense": 0.3618,
+          "fused": 0.8371
+        },
+        {
+          "doc_id": 275,
+          "bm25": 11.5363,
+          "dense": 0.2843,
+          "fused": 0.7561
+        },
+        {
+          "doc_id": 294,
+          "bm25": 9.6485,
+          "dense": 0.3103,
+          "fused": 0.7326
+        },
+        {
+          "doc_id": 215,
+          "bm25": 12.9139,
+          "dense": 0.2321,
+          "fused": 0.7274
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 211,
+          "bm25_rank": 1,
+          "dense_rank": 5,
+          "rrf_score": 0.03177805800756621
+        },
+        {
+          "doc_id": 290,
+          "bm25_rank": 8,
+          "dense_rank": 1,
+          "rrf_score": 0.031099324975891997
+        },
+        {
+          "doc_id": 275,
+          "bm25_rank": 4,
+          "dense_rank": 7,
+          "rrf_score": 0.03055037313432836
+        },
+        {
+          "doc_id": 294,
+          "bm25_rank": 12,
+          "dense_rank": 2,
+          "rrf_score": 0.030017921146953404
+        },
+        {
+          "doc_id": 79,
+          "bm25_rank": 6,
+          "dense_rank": 8,
+          "rrf_score": 0.029857397504456328
+        }
+      ]
+    },
+    {
+      "id": "v9",
+      "query": "نمی‌خوام این چکم که برگشت خورده تو سابقه‌م بیاد، چه طوری حذفش کنم؟",
+      "gold_doc_id": 172,
+      "fused_rank": null,
+      "bm25_rank": null,
+      "dense_rank": null,
+      "rrf_rank": null,
+      "delta": null,
+      "fused_hit3": false,
+      "fused_hit5": false,
+      "rrf_hit3": false,
+      "rrf_hit5": false,
+      "top5_fused": [
+        {
+          "doc_id": 47,
+          "bm25": 12.7642,
+          "dense": 0.1733,
+          "fused": 1.0
+        },
+        {
+          "doc_id": 208,
+          "bm25": 7.0795,
+          "dense": 0.1284,
+          "fused": 0.6478
+        },
+        {
+          "doc_id": 292,
+          "bm25": 6.2739,
+          "dense": 0.1254,
+          "fused": 0.6078
+        },
+        {
+          "doc_id": 47,
+          "bm25": 5.5153,
+          "dense": 0.135,
+          "fused": 0.6056
+        },
+        {
+          "doc_id": 298,
+          "bm25": 6.4012,
+          "dense": 0.1201,
+          "fused": 0.5973
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 47,
+          "bm25_rank": 1,
+          "dense_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "doc_id": 208,
+          "bm25_rank": 2,
+          "dense_rank": 4,
+          "rrf_score": 0.031754032258064516
+        },
+        {
+          "doc_id": 292,
+          "bm25_rank": 4,
+          "dense_rank": 5,
+          "rrf_score": 0.031009615384615385
+        },
+        {
+          "doc_id": 47,
+          "bm25_rank": 9,
+          "dense_rank": 3,
+          "rrf_score": 0.03036576949620428
+        },
+        {
+          "doc_id": 298,
+          "bm25_rank": 3,
+          "dense_rank": 9,
+          "rrf_score": 0.03036576949620428
+        }
+      ]
+    },
+    {
+      "id": "v10",
+      "query": "من ضامن یک وام شدم. اگر شخص تاخیر زیادی در پرداخت قسط های وام داشته باشد، آیا امتیاز من به شدت کم می شود؟",
+      "gold_doc_id": 234,
+      "fused_rank": 4,
+      "bm25_rank": 3,
+      "dense_rank": 13,
+      "rrf_rank": 8,
+      "delta": -4,
+      "fused_hit3": false,
+      "fused_hit5": true,
+      "rrf_hit3": false,
+      "rrf_hit5": false,
+      "top5_fused": [
+        {
+          "doc_id": 208,
+          "bm25": 21.4615,
+          "dense": 0.3619,
+          "fused": 1.0
+        },
+        {
+          "doc_id": 287,
+          "bm25": 20.5493,
+          "dense": 0.3073,
+          "fused": 0.9033
+        },
+        {
+          "doc_id": 185,
+          "bm25": 16.77,
+          "dense": 0.3411,
+          "fused": 0.862
+        },
+        {
+          "doc_id": 234,
+          "bm25": 16.8769,
+          "dense": 0.2632,
+          "fused": 0.7568
+        },
+        {
+          "doc_id": 119,
+          "bm25": 13.8516,
+          "dense": 0.3063,
+          "fused": 0.746
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 208,
+          "bm25_rank": 1,
+          "dense_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "doc_id": 287,
+          "bm25_rank": 2,
+          "dense_rank": 3,
+          "rrf_score": 0.03200204813108039
+        },
+        {
+          "doc_id": 185,
+          "bm25_rank": 4,
+          "dense_rank": 2,
+          "rrf_score": 0.031754032258064516
+        },
+        {
+          "doc_id": 223,
+          "bm25_rank": 8,
+          "dense_rank": 5,
+          "rrf_score": 0.030090497737556562
+        },
+        {
+          "doc_id": 119,
+          "bm25_rank": 10,
+          "dense_rank": 4,
+          "rrf_score": 0.029910714285714284
+        }
+      ]
+    },
+    {
+      "id": "v11",
+      "query": "چرا با وجود بازپرداخت به‌موقع اقساط، امتیاز اعتباری من هنوز افزایش نیافته است؟",
+      "gold_doc_id": 250,
+      "fused_rank": 6,
+      "bm25_rank": 6,
+      "dense_rank": 7,
+      "rrf_rank": 6,
+      "delta": 0,
+      "fused_hit3": false,
+      "fused_hit5": false,
+      "rrf_hit3": false,
+      "rrf_hit5": false,
+      "top5_fused": [
+        {
+          "doc_id": 221,
+          "bm25": 12.5379,
+          "dense": 0.3605,
+          "fused": 0.9192
+        },
+        {
+          "doc_id": 181,
+          "bm25": 14.9563,
+          "dense": 0.2813,
+          "fused": 0.8901
+        },
+        {
+          "doc_id": 194,
+          "bm25": 14.9563,
+          "dense": 0.2813,
+          "fused": 0.8901
+        },
+        {
+          "doc_id": 22,
+          "bm25": 10.2936,
+          "dense": 0.307,
+          "fused": 0.7699
+        },
+        {
+          "doc_id": 39,
+          "bm25": 11.1551,
+          "dense": 0.2854,
+          "fused": 0.7687
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 221,
+          "bm25_rank": 3,
+          "dense_rank": 1,
+          "rrf_score": 0.032266458495966696
+        },
+        {
+          "doc_id": 181,
+          "bm25_rank": 1,
+          "dense_rank": 8,
+          "rrf_score": 0.031099324975891997
+        },
+        {
+          "doc_id": 39,
+          "bm25_rank": 4,
+          "dense_rank": 6,
+          "rrf_score": 0.030776515151515152
+        },
+        {
+          "doc_id": 194,
+          "bm25_rank": 2,
+          "dense_rank": 9,
+          "rrf_score": 0.030621785881252923
+        },
+        {
+          "doc_id": 22,
+          "bm25_rank": 8,
+          "dense_rank": 3,
+          "rrf_score": 0.03057889822595705
+        }
+      ]
+    },
+    {
+      "id": "v12",
+      "query": "عدد صادرات/واردات توی رتبه اعتباری موثره؟",
+      "gold_doc_id": 34,
+      "fused_rank": null,
+      "bm25_rank": null,
+      "dense_rank": null,
+      "rrf_rank": null,
+      "delta": null,
+      "fused_hit3": false,
+      "fused_hit5": false,
+      "rrf_hit3": false,
+      "rrf_hit5": false,
+      "top5_fused": [
+        {
+          "doc_id": 301,
+          "bm25": 6.2102,
+          "dense": 0.2132,
+          "fused": 0.8454
+        },
+        {
+          "doc_id": 85,
+          "bm25": 2.671,
+          "dense": 0.3086,
+          "fused": 0.7151
+        },
+        {
+          "doc_id": 9000,
+          "bm25": 2.8085,
+          "dense": 0.2887,
+          "fused": 0.6938
+        },
+        {
+          "doc_id": 301,
+          "bm25": 2.6842,
+          "dense": 0.2887,
+          "fused": 0.6838
+        },
+        {
+          "doc_id": 9003,
+          "bm25": 2.9614,
+          "dense": 0.2722,
+          "fused": 0.6794
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 9000,
+          "bm25_rank": 5,
+          "dense_rank": 2,
+          "rrf_score": 0.0315136476426799
+        },
+        {
+          "doc_id": 9003,
+          "bm25_rank": 3,
+          "dense_rank": 5,
+          "rrf_score": 0.03125763125763126
+        },
+        {
+          "doc_id": 85,
+          "bm25_rank": 8,
+          "dense_rank": 1,
+          "rrf_score": 0.031099324975891997
+        },
+        {
+          "doc_id": 301,
+          "bm25_rank": 7,
+          "dense_rank": 3,
+          "rrf_score": 0.030798389007344232
+        },
+        {
+          "doc_id": 328,
+          "bm25_rank": 9,
+          "dense_rank": 4,
+          "rrf_score": 0.030117753623188408
+        }
+      ]
+    },
+    {
+      "id": "v13",
+      "query": "آیا داشتن چند ضامن برای یک وام، در مقابل یک ضامن، تاثیر متفاوتی بر رتبه اعتباری ضامنان دارد؟",
+      "gold_doc_id": 262,
+      "fused_rank": 1,
+      "bm25_rank": 1,
+      "dense_rank": 1,
+      "rrf_rank": 1,
+      "delta": 0,
+      "fused_hit3": true,
+      "fused_hit5": true,
+      "rrf_hit3": true,
+      "rrf_hit5": true,
+      "top5_fused": [
+        {
+          "doc_id": 262,
+          "bm25": 17.3331,
+          "dense": 0.3432,
+          "fused": 1.0
+        },
+        {
+          "doc_id": 283,
+          "bm25": 15.247,
+          "dense": 0.2606,
+          "fused": 0.8195
+        },
+        {
+          "doc_id": 281,
+          "bm25": 15.5692,
+          "dense": 0.2466,
+          "fused": 0.8084
+        },
+        {
+          "doc_id": 70,
+          "bm25": 13.4068,
+          "dense": 0.2609,
+          "fused": 0.7668
+        },
+        {
+          "doc_id": 31,
+          "bm25": 11.619,
+          "dense": 0.2767,
+          "fused": 0.7383
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 262,
+          "bm25_rank": 1,
+          "dense_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "doc_id": 283,
+          "bm25_rank": 3,
+          "dense_rank": 7,
+          "rrf_score": 0.030798389007344232
+        },
+        {
+          "doc_id": 281,
+          "bm25_rank": 2,
+          "dense_rank": 10,
+          "rrf_score": 0.0304147465437788
+        },
+        {
+          "doc_id": 31,
+          "bm25_rank": 11,
+          "dense_rank": 3,
+          "rrf_score": 0.029957522915269395
+        },
+        {
+          "doc_id": 70,
+          "bm25_rank": 9,
+          "dense_rank": 6,
+          "rrf_score": 0.02964426877470356
+        }
+      ]
+    },
+    {
+      "id": "v14",
+      "query": "داشتن تعداد زیاد اعتبارات اسنادی همیشه خوب است؟",
+      "gold_doc_id": 8,
+      "fused_rank": 1,
+      "bm25_rank": 1,
+      "dense_rank": 1,
+      "rrf_rank": 1,
+      "delta": 0,
+      "fused_hit3": true,
+      "fused_hit5": true,
+      "rrf_hit3": true,
+      "rrf_hit5": true,
+      "top5_fused": [
+        {
+          "doc_id": 8,
+          "bm25": 15.8071,
+          "dense": 0.2828,
+          "fused": 1.0
+        },
+        {
+          "doc_id": 80,
+          "bm25": 12.5445,
+          "dense": 0.1936,
+          "fused": 0.7391
+        },
+        {
+          "doc_id": 130,
+          "bm25": 13.5692,
+          "dense": 0.1744,
+          "fused": 0.7375
+        },
+        {
+          "doc_id": 49,
+          "bm25": 6.3473,
+          "dense": 0.1961,
+          "fused": 0.5475
+        },
+        {
+          "doc_id": 19,
+          "bm25": 7.7534,
+          "dense": 0.1564,
+          "fused": 0.5217
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 8,
+          "bm25_rank": 1,
+          "dense_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "doc_id": 80,
+          "bm25_rank": 3,
+          "dense_rank": 4,
+          "rrf_score": 0.03149801587301587
+        },
+        {
+          "doc_id": 130,
+          "bm25_rank": 2,
+          "dense_rank": 6,
+          "rrf_score": 0.03128054740957967
+        },
+        {
+          "doc_id": 49,
+          "bm25_rank": 7,
+          "dense_rank": 3,
+          "rrf_score": 0.030798389007344232
+        },
+        {
+          "doc_id": 19,
+          "bm25_rank": 5,
+          "dense_rank": 7,
+          "rrf_score": 0.030309988518943745
+        }
+      ]
+    },
+    {
+      "id": "v15",
+      "query": "رتبه C3 یعنی چی؟",
+      "gold_doc_id": 108,
+      "fused_rank": 2,
+      "bm25_rank": 2,
+      "dense_rank": 8,
+      "rrf_rank": 5,
+      "delta": -3,
+      "fused_hit3": true,
+      "fused_hit5": true,
+      "rrf_hit3": false,
+      "rrf_hit5": true,
+      "top5_fused": [
+        {
+          "doc_id": 9004,
+          "bm25": 9.3108,
+          "dense": 0.25,
+          "fused": 1.0
+        },
+        {
+          "doc_id": 108,
+          "bm25": 7.0669,
+          "dense": 0.1562,
+          "fused": 0.6918
+        },
+        {
+          "doc_id": 91,
+          "bm25": 5.8636,
+          "dense": 0.1768,
+          "fused": 0.6684
+        },
+        {
+          "doc_id": 92,
+          "bm25": 5.8636,
+          "dense": 0.1768,
+          "fused": 0.6684
+        },
+        {
+          "doc_id": 245,
+          "bm25": 5.8636,
+          "dense": 0.1715,
+          "fused": 0.6579
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 9004,
+          "bm25_rank": 1,
+          "dense_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "doc_id": 91,
+          "bm25_rank": 3,
+          "dense_rank": 2,
+          "rrf_score": 0.03200204813108039
+        },
+        {
+          "doc_id": 92,
+          "bm25_rank": 4,
+          "dense_rank": 3,
+          "rrf_score": 0.03149801587301587
+        },
+        {
+          "doc_id": 245,
+          "bm25_rank": 5,
+          "dense_rank": 4,
+          "rrf_score": 0.031009615384615385
+        },
+        {
+          "doc_id": 108,
+          "bm25_rank": 2,
+          "dense_rank": 8,
+          "rrf_score": 0.030834914611005692
+        }
+      ]
+    },
+    {
+      "id": "v16",
+      "query": "اگر شرکت بدهی به تامین‌کنندگان داشته باشد، آیا این بدهی در گزارش اعتباری ثبت می‌شود؟",
+      "gold_doc_id": 123,
+      "fused_rank": null,
+      "bm25_rank": null,
+      "dense_rank": null,
+      "rrf_rank": null,
+      "delta": null,
+      "fused_hit3": false,
+      "fused_hit5": false,
+      "rrf_hit3": false,
+      "rrf_hit5": false,
+      "top5_fused": [
+        {
+          "doc_id": 65,
+          "bm25": 14.1636,
+          "dense": 0.3546,
+          "fused": 0.8879
+        },
+        {
+          "doc_id": 138,
+          "bm25": 13.2829,
+          "dense": 0.3742,
+          "fused": 0.8852
+        },
+        {
+          "doc_id": 66,
+          "bm25": 13.2536,
+          "dense": 0.3667,
+          "fused": 0.8749
+        },
+        {
+          "doc_id": 184,
+          "bm25": 11.5121,
+          "dense": 0.3954,
+          "fused": 0.8572
+        },
+        {
+          "doc_id": 263,
+          "bm25": 12.4673,
+          "dense": 0.3669,
+          "fused": 0.8507
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 138,
+          "bm25_rank": 3,
+          "dense_rank": 2,
+          "rrf_score": 0.03200204813108039
+        },
+        {
+          "doc_id": 65,
+          "bm25_rank": 2,
+          "dense_rank": 7,
+          "rrf_score": 0.031054405392392875
+        },
+        {
+          "doc_id": 66,
+          "bm25_rank": 4,
+          "dense_rank": 5,
+          "rrf_score": 0.031009615384615385
+        },
+        {
+          "doc_id": 263,
+          "bm25_rank": 7,
+          "dense_rank": 4,
+          "rrf_score": 0.03055037313432836
+        },
+        {
+          "doc_id": 184,
+          "bm25_rank": 12,
+          "dense_rank": 1,
+          "rrf_score": 0.03028233151183971
+        }
+      ]
+    },
+    {
+      "id": "v17",
+      "query": "من بدهی مالیاتی پرداخت نشده داشتم و رتبه ام E3 شده است. اگر آن را پرداخت کنم، چه اتفاقی می افتد؟",
+      "gold_doc_id": 237,
+      "fused_rank": null,
+      "bm25_rank": null,
+      "dense_rank": null,
+      "rrf_rank": null,
+      "delta": null,
+      "fused_hit3": false,
+      "fused_hit5": false,
+      "rrf_hit3": false,
+      "rrf_hit5": false,
+      "top5_fused": [
+        {
+          "doc_id": 173,
+          "bm25": 23.8277,
+          "dense": 0.3953,
+          "fused": 1.0
+        },
+        {
+          "doc_id": 178,
+          "bm25": 17.8753,
+          "dense": 0.2958,
+          "fused": 0.7493
+        },
+        {
+          "doc_id": 22,
+          "bm25": 17.4348,
+          "dense": 0.2828,
+          "fused": 0.7236
+        },
+        {
+          "doc_id": 287,
+          "bm25": 19.0912,
+          "dense": 0.2506,
+          "fused": 0.7176
+        },
+        {
+          "doc_id": 304,
+          "bm25": 14.8998,
+          "dense": 0.3195,
+          "fused": 0.7168
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 173,
+          "bm25_rank": 1,
+          "dense_rank": 1,
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "doc_id": 178,
+          "bm25_rank": 3,
+          "dense_rank": 6,
+          "rrf_score": 0.031024531024531024
+        },
+        {
+          "doc_id": 22,
+          "bm25_rank": 4,
+          "dense_rank": 7,
+          "rrf_score": 0.03055037313432836
+        },
+        {
+          "doc_id": 179,
+          "bm25_rank": 6,
+          "dense_rank": 5,
+          "rrf_score": 0.030536130536130537
+        },
+        {
+          "doc_id": 287,
+          "bm25_rank": 2,
+          "dense_rank": 10,
+          "rrf_score": 0.0304147465437788
+        }
+      ]
+    },
+    {
+      "id": "v18",
+      "query": "چرا وقتی شرکت هیچ سابقه تاخیری ندارد، بالاترین امتیاز رو نداره؟",
+      "gold_doc_id": 67,
+      "fused_rank": null,
+      "bm25_rank": null,
+      "dense_rank": null,
+      "rrf_rank": null,
+      "delta": null,
+      "fused_hit3": false,
+      "fused_hit5": false,
+      "rrf_hit3": false,
+      "rrf_hit5": false,
+      "top5_fused": [
+        {
+          "doc_id": 16,
+          "bm25": 9.7623,
+          "dense": 0.2515,
+          "fused": 0.9396
+        },
+        {
+          "doc_id": 9001,
+          "bm25": 6.7186,
+          "dense": 0.286,
+          "fused": 0.8441
+        },
+        {
+          "doc_id": 15,
+          "bm25": 7.8364,
+          "dense": 0.2068,
+          "fused": 0.7629
+        },
+        {
+          "doc_id": 140,
+          "bm25": 7.0451,
+          "dense": 0.2166,
+          "fused": 0.7395
+        },
+        {
+          "doc_id": 262,
+          "bm25": 8.2119,
+          "dense": 0.1774,
+          "fused": 0.7307
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 16,
+          "bm25_rank": 1,
+          "dense_rank": 2,
+          "rrf_score": 0.03252247488101534
+        },
+        {
+          "doc_id": 15,
+          "bm25_rank": 4,
+          "dense_rank": 4,
+          "rrf_score": 0.03125
+        },
+        {
+          "doc_id": 9001,
+          "bm25_rank": 9,
+          "dense_rank": 1,
+          "rrf_score": 0.030886196246139225
+        },
+        {
+          "doc_id": 140,
+          "bm25_rank": 7,
+          "dense_rank": 3,
+          "rrf_score": 0.030798389007344232
+        },
+        {
+          "doc_id": 262,
+          "bm25_rank": 3,
+          "dense_rank": 12,
+          "rrf_score": 0.02976190476190476
+        }
+      ]
+    },
+    {
+      "id": "v19",
+      "query": "تغییر محل قانونی و آدرس شرکت چه تأثیری بر امتیاز اعتباری دارد؟",
+      "gold_doc_id": 36,
+      "fused_rank": 5,
+      "bm25_rank": 5,
+      "dense_rank": 6,
+      "rrf_rank": 3,
+      "delta": 2,
+      "fused_hit3": false,
+      "fused_hit5": true,
+      "rrf_hit3": true,
+      "rrf_hit5": true,
+      "top5_fused": [
+        {
+          "doc_id": 15,
+          "bm25": 15.4989,
+          "dense": 0.3466,
+          "fused": 0.9502
+        },
+        {
+          "doc_id": 133,
+          "bm25": 13.3227,
+          "dense": 0.3195,
+          "fused": 0.8448
+        },
+        {
+          "doc_id": 165,
+          "bm25": 13.1688,
+          "dense": 0.3195,
+          "fused": 0.8399
+        },
+        {
+          "doc_id": 166,
+          "bm25": 13.1688,
+          "dense": 0.3195,
+          "fused": 0.8399
+        },
+        {
+          "doc_id": 36,
+          "bm25": 11.8858,
+          "dense": 0.3273,
+          "fused": 0.8087
+        }
+      ],
+      "top5_rrf": [
+        {
+          "doc_id": 15,
+          "bm25_rank": 1,
+          "dense_rank": 5,
+          "rrf_score": 0.03177805800756621
+        },
+        {
+          "doc_id": 133,
+          "bm25_rank": 2,
+          "dense_rank": 8,
+          "rrf_score": 0.030834914611005692
+        },
+        {
+          "doc_id": 36,
+          "bm25_rank": 5,
+          "dense_rank": 6,
+          "rrf_score": 0.030536130536130537
+        },
+        {
+          "doc_id": 165,
+          "bm25_rank": 3,
+          "dense_rank": 9,
+          "rrf_score": 0.03036576949620428
+        },
+        {
+          "doc_id": 166,
+          "bm25_rank": 4,
+          "dense_rank": 10,
+          "rrf_score": 0.029910714285714284
+        }
+      ]
+    }
+  ]
+}

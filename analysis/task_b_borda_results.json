@@ -1,0 +1,448 @@
+{
+  "server_fused": {
+    "hit3": 0.4,
+    "hit5": 0.55
+  },
+  "borda": [
+    {
+      "bm25_weight": 0.0,
+      "dense_weight": 1.0,
+      "hit3": 0.35,
+      "hit5": 0.35,
+      "ranks": [
+        {
+          "id": "v0",
+          "rank": 3
+        },
+        {
+          "id": "v1",
+          "rank": 7
+        },
+        {
+          "id": "v2",
+          "rank": 1
+        },
+        {
+          "id": "v3",
+          "rank": null
+        },
+        {
+          "id": "v4",
+          "rank": 1
+        },
+        {
+          "id": "v5",
+          "rank": 18
+        },
+        {
+          "id": "v6",
+          "rank": null
+        },
+        {
+          "id": "v7",
+          "rank": 1
+        },
+        {
+          "id": "v8",
+          "rank": 1
+        },
+        {
+          "id": "v9",
+          "rank": null
+        },
+        {
+          "id": "v10",
+          "rank": 13
+        },
+        {
+          "id": "v11",
+          "rank": 7
+        },
+        {
+          "id": "v12",
+          "rank": null
+        },
+        {
+          "id": "v13",
+          "rank": 1
+        },
+        {
+          "id": "v14",
+          "rank": 1
+        },
+        {
+          "id": "v15",
+          "rank": 8
+        },
+        {
+          "id": "v16",
+          "rank": null
+        },
+        {
+          "id": "v17",
+          "rank": null
+        },
+        {
+          "id": "v18",
+          "rank": null
+        },
+        {
+          "id": "v19",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "bm25_weight": 0.25,
+      "dense_weight": 0.75,
+      "hit3": 0.35,
+      "hit5": 0.45,
+      "ranks": [
+        {
+          "id": "v0",
+          "rank": 4
+        },
+        {
+          "id": "v1",
+          "rank": 5
+        },
+        {
+          "id": "v2",
+          "rank": 1
+        },
+        {
+          "id": "v3",
+          "rank": null
+        },
+        {
+          "id": "v4",
+          "rank": 1
+        },
+        {
+          "id": "v5",
+          "rank": 14
+        },
+        {
+          "id": "v6",
+          "rank": null
+        },
+        {
+          "id": "v7",
+          "rank": 1
+        },
+        {
+          "id": "v8",
+          "rank": 1
+        },
+        {
+          "id": "v9",
+          "rank": null
+        },
+        {
+          "id": "v10",
+          "rank": 10
+        },
+        {
+          "id": "v11",
+          "rank": 6
+        },
+        {
+          "id": "v12",
+          "rank": null
+        },
+        {
+          "id": "v13",
+          "rank": 1
+        },
+        {
+          "id": "v14",
+          "rank": 1
+        },
+        {
+          "id": "v15",
+          "rank": 7
+        },
+        {
+          "id": "v16",
+          "rank": null
+        },
+        {
+          "id": "v17",
+          "rank": null
+        },
+        {
+          "id": "v18",
+          "rank": null
+        },
+        {
+          "id": "v19",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "bm25_weight": 0.5,
+      "dense_weight": 0.5,
+      "hit3": 0.4,
+      "hit5": 0.45,
+      "ranks": [
+        {
+          "id": "v0",
+          "rank": 7
+        },
+        {
+          "id": "v1",
+          "rank": 3
+        },
+        {
+          "id": "v2",
+          "rank": 1
+        },
+        {
+          "id": "v3",
+          "rank": null
+        },
+        {
+          "id": "v4",
+          "rank": 1
+        },
+        {
+          "id": "v5",
+          "rank": 10
+        },
+        {
+          "id": "v6",
+          "rank": null
+        },
+        {
+          "id": "v7",
+          "rank": 1
+        },
+        {
+          "id": "v8",
+          "rank": 2
+        },
+        {
+          "id": "v9",
+          "rank": null
+        },
+        {
+          "id": "v10",
+          "rank": 8
+        },
+        {
+          "id": "v11",
+          "rank": 6
+        },
+        {
+          "id": "v12",
+          "rank": null
+        },
+        {
+          "id": "v13",
+          "rank": 1
+        },
+        {
+          "id": "v14",
+          "rank": 1
+        },
+        {
+          "id": "v15",
+          "rank": 5
+        },
+        {
+          "id": "v16",
+          "rank": null
+        },
+        {
+          "id": "v17",
+          "rank": null
+        },
+        {
+          "id": "v18",
+          "rank": null
+        },
+        {
+          "id": "v19",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "bm25_weight": 0.75,
+      "dense_weight": 0.25,
+      "hit3": 0.35,
+      "hit5": 0.55,
+      "ranks": [
+        {
+          "id": "v0",
+          "rank": 12
+        },
+        {
+          "id": "v1",
+          "rank": 1
+        },
+        {
+          "id": "v2",
+          "rank": 1
+        },
+        {
+          "id": "v3",
+          "rank": null
+        },
+        {
+          "id": "v4",
+          "rank": 1
+        },
+        {
+          "id": "v5",
+          "rank": 7
+        },
+        {
+          "id": "v6",
+          "rank": null
+        },
+        {
+          "id": "v7",
+          "rank": 1
+        },
+        {
+          "id": "v8",
+          "rank": 5
+        },
+        {
+          "id": "v9",
+          "rank": null
+        },
+        {
+          "id": "v10",
+          "rank": 4
+        },
+        {
+          "id": "v11",
+          "rank": 5
+        },
+        {
+          "id": "v12",
+          "rank": null
+        },
+        {
+          "id": "v13",
+          "rank": 1
+        },
+        {
+          "id": "v14",
+          "rank": 1
+        },
+        {
+          "id": "v15",
+          "rank": 3
+        },
+        {
+          "id": "v16",
+          "rank": null
+        },
+        {
+          "id": "v17",
+          "rank": null
+        },
+        {
+          "id": "v18",
+          "rank": null
+        },
+        {
+          "id": "v19",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "bm25_weight": 1.0,
+      "dense_weight": 0.0,
+      "hit3": 0.4,
+      "hit5": 0.5,
+      "ranks": [
+        {
+          "id": "v0",
+          "rank": 14
+        },
+        {
+          "id": "v1",
+          "rank": 1
+        },
+        {
+          "id": "v2",
+          "rank": 2
+        },
+        {
+          "id": "v3",
+          "rank": null
+        },
+        {
+          "id": "v4",
+          "rank": 1
+        },
+        {
+          "id": "v5",
+          "rank": 4
+        },
+        {
+          "id": "v6",
+          "rank": null
+        },
+        {
+          "id": "v7",
+          "rank": 1
+        },
+        {
+          "id": "v8",
+          "rank": 8
+        },
+        {
+          "id": "v9",
+          "rank": null
+        },
+        {
+          "id": "v10",
+          "rank": 3
+        },
+        {
+          "id": "v11",
+          "rank": 6
+        },
+        {
+          "id": "v12",
+          "rank": null
+        },
+        {
+          "id": "v13",
+          "rank": 1
+        },
+        {
+          "id": "v14",
+          "rank": 1
+        },
+        {
+          "id": "v15",
+          "rank": 2
+        },
+        {
+          "id": "v16",
+          "rank": null
+        },
+        {
+          "id": "v17",
+          "rank": null
+        },
+        {
+          "id": "v18",
+          "rank": null
+        },
+        {
+          "id": "v19",
+          "rank": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "server_baseline": {
+    "hit3": 0.4,
+    "hit5": 0.55
+  },
+  "reconstruction": {
+    "exact_top5_matches": 20,
+    "total_queries": 20
+  },
+  "percentile_results": [
+    {
+      "percentile": 0.75,
+      "hit3": 0.4,
+      "hit5": 0.5,
+      "improved": [
+        "v11",
+        "v19"
+      ],
+      "regressed": [
+        "v0",
+        "v5",
+        "v15"
+      ],
+      "unchanged": [
+        "v1",
+        "v2",
+        "v4",
+        "v7",
+        "v8",
+        "v10",
+        "v13",
+        "v14"
+      ],
+      "per_query": [
+        {
+          "id": "v0",
+          "server_rank": 3,
+          "robust_rank": 6
+        },
+        {
+          "id": "v1",
+          "server_rank": 4,
+          "robust_rank": 4
+        },
+        {
+          "id": "v2",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v3",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v4",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v5",
+          "server_rank": 7,
+          "robust_rank": 10
+        },
+        {
+          "id": "v6",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v7",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v8",
+          "server_rank": 2,
+          "robust_rank": 2
+        },
+        {
+          "id": "v9",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v10",
+          "server_rank": 4,
+          "robust_rank": 4
+        },
+        {
+          "id": "v11",
+          "server_rank": 6,
+          "robust_rank": 3
+        },
+        {
+          "id": "v12",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v13",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v14",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v15",
+          "server_rank": 2,
+          "robust_rank": 6
+        },
+        {
+          "id": "v16",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v17",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v18",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v19",
+          "server_rank": 5,
+          "robust_rank": 2
+        }
+      ]
+    },
+    {
+      "percentile": 0.9,
+      "hit3": 0.3,
+      "hit5": 0.55,
+      "improved": [],
+      "regressed": [
+        "v0",
+        "v8",
+        "v15"
+      ],
+      "unchanged": [
+        "v1",
+        "v2",
+        "v4",
+        "v5",
+        "v7",
+        "v10",
+        "v11",
+        "v13",
+        "v14",
+        "v19"
+      ],
+      "per_query": [
+        {
+          "id": "v0",
+          "server_rank": 3,
+          "robust_rank": 4
+        },
+        {
+          "id": "v1",
+          "server_rank": 4,
+          "robust_rank": 4
+        },
+        {
+          "id": "v2",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v3",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v4",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v5",
+          "server_rank": 7,
+          "robust_rank": 7
+        },
+        {
+          "id": "v6",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v7",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v8",
+          "server_rank": 2,
+          "robust_rank": 3
+        },
+        {
+          "id": "v9",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v10",
+          "server_rank": 4,
+          "robust_rank": 4
+        },
+        {
+          "id": "v11",
+          "server_rank": 6,
+          "robust_rank": 6
+        },
+        {
+          "id": "v12",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v13",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v14",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v15",
+          "server_rank": 2,
+          "robust_rank": 5
+        },
+        {
+          "id": "v16",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v17",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v18",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v19",
+          "server_rank": 5,
+          "robust_rank": 5
+        }
+      ]
+    },
+    {
+      "percentile": 0.95,
+      "hit3": 0.35,
+      "hit5": 0.55,
+      "improved": [],
+      "regressed": [
+        "v0"
+      ],
+      "unchanged": [
+        "v1",
+        "v2",
+        "v4",
+        "v5",
+        "v7",
+        "v8",
+        "v10",
+        "v11",
+        "v13",
+        "v14",
+        "v15",
+        "v19"
+      ],
+      "per_query": [
+        {
+          "id": "v0",
+          "server_rank": 3,
+          "robust_rank": 5
+        },
+        {
+          "id": "v1",
+          "server_rank": 4,
+          "robust_rank": 4
+        },
+        {
+          "id": "v2",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v3",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v4",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v5",
+          "server_rank": 7,
+          "robust_rank": 7
+        },
+        {
+          "id": "v6",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v7",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v8",
+          "server_rank": 2,
+          "robust_rank": 2
+        },
+        {
+          "id": "v9",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v10",
+          "server_rank": 4,
+          "robust_rank": 4
+        },
+        {
+          "id": "v11",
+          "server_rank": 6,
+          "robust_rank": 6
+        },
+        {
+          "id": "v12",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v13",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v14",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v15",
+          "server_rank": 2,
+          "robust_rank": 2
+        },
+        {
+          "id": "v16",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v17",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v18",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v19",
+          "server_rank": 5,
+          "robust_rank": 5
+        }
+      ]
+    },
+    {
+      "percentile": 1.0,
+      "hit3": 0.4,
+      "hit5": 0.55,
+      "improved": [],
+      "regressed": [],
+      "unchanged": [
+        "v0",
+        "v1",
+        "v2",
+        "v4",
+        "v5",
+        "v7",
+        "v8",
+        "v10",
+        "v11",
+        "v13",
+        "v14",
+        "v15",
+        "v19"
+      ],
+      "per_query": [
+        {
+          "id": "v0",
+          "server_rank": 3,
+          "robust_rank": 3
+        },
+        {
+          "id": "v1",
+          "server_rank": 4,
+          "robust_rank": 4
+        },
+        {
+          "id": "v2",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v3",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v4",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v5",
+          "server_rank": 7,
+          "robust_rank": 7
+        },
+        {
+          "id": "v6",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v7",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v8",
+          "server_rank": 2,
+          "robust_rank": 2
+        },
+        {
+          "id": "v9",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v10",
+          "server_rank": 4,
+          "robust_rank": 4
+        },
+        {
+          "id": "v11",
+          "server_rank": 6,
+          "robust_rank": 6
+        },
+        {
+          "id": "v12",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v13",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v14",
+          "server_rank": 1,
+          "robust_rank": 1
+        },
+        {
+          "id": "v15",
+          "server_rank": 2,
+          "robust_rank": 2
+        },
+        {
+          "id": "v16",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v17",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v18",
+          "server_rank": null,
+          "robust_rank": null
+        },
+        {
+          "id": "v19",
+          "server_rank": 5,
+          "robust_rank": 5
+        }
+      ]
+    }
+  ]
+}

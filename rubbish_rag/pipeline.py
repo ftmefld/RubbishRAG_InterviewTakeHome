@@ -6,7 +6,7 @@ see docs/DECORATORS.md for the mechanism):
 """
 import rubbish_rag as R
 from .normalize_fa import normalize_fa
-from .slots import extract_slots_broken
+from .slots import extract_slots
 
 
 @R.chunker
@@ -198,18 +198,35 @@ def retrieve(query, topk=5):
 
 @R.reranker
 def rerank(query, hits):
-    """Current behavior: orders hits by shared-word count with the query.
-
-    TODO: find a query where the top hit below is clearly the wrong document.
-    What fooled the counter? How would you catch that case?
-    You decide the ranking rule.
     """
-    q = set(query.split())
-    for h in hits:
-        toks = set(h["text"].split())
-        h["rerank_score"] = len(q & toks)
-    return sorted(hits, key=lambda h: h["rerank_score"], reverse=True)
+    Normalize Persian text before lexical overlap scoring so equivalent
+    digit scripts, Arabic/Persian letter variants, half-spaces, and common
+    colloquial forms do not create token-level false negatives.
+    """
+    normalized_query = normalize_fa(query)
 
+    query_tokens = set(
+        normalized_query.split()
+    )
+
+    for hit in hits:
+        normalized_text = normalize_fa(
+            hit["text"]
+        )
+
+        hit_tokens = set(
+            normalized_text.split()
+        )
+
+        hit["rerank_score"] = len(
+            query_tokens & hit_tokens
+        )
+
+    return sorted(
+        hits,
+        key=lambda hit: hit["rerank_score"],
+        reverse=True,
+    )
 
 @R.resolver
 def resolve(query, hits):
@@ -219,7 +236,7 @@ def resolve(query, hits):
     the query itself is missing the one detail the answer depends on?
     Check the output contract in the README, then decide.
     """
-    _ = extract_slots_broken(query)  # currently unused
+    slots = extract_slots(query)  
     top = hits[0] if hits else {"text": "", "doc_id": -1}
     return {"status": "answer", "brief": top["text"][:200],
             "cites": [h["doc_id"] for h in hits[:3]] or [top["doc_id"]]}

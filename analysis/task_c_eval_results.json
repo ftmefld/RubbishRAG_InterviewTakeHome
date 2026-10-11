@@ -1,0 +1,520 @@
+{
+  "normalization": {
+    "passed": 13,
+    "total": 13,
+    "accuracy": 1.0,
+    "cases": [
+      {
+        "input": "امتیاز ۲۵۰",
+        "expected": "امتیاز 250",
+        "actual": "امتیاز 250",
+        "passed": true
+      },
+      {
+        "input": "امتیاز ٢٥٠",
+        "expected": "امتیاز 250",
+        "actual": "امتیاز 250",
+        "passed": true
+      },
+      {
+        "input": "امتیاز 250",
+        "expected": "امتیاز 250",
+        "actual": "امتیاز 250",
+        "passed": true
+      },
+      {
+        "input": "بانك ملي",
+        "expected": "بانک ملی",
+        "actual": "بانک ملی",
+        "passed": true
+      },
+      {
+        "input": "بانک ملی",
+        "expected": "بانک ملی",
+        "actual": "بانک ملی",
+        "passed": true
+      },
+      {
+        "input": "می‌شود",
+        "expected": "می شود",
+        "actual": "می شود",
+        "passed": true
+      },
+      {
+        "input": "میشه",
+        "expected": "می شود",
+        "actual": "می شود",
+        "passed": true
+      },
+      {
+        "input": "نمی‌شود",
+        "expected": "نمی شود",
+        "actual": "نمی شود",
+        "passed": true
+      },
+      {
+        "input": "نمیشه",
+        "expected": "نمی شود",
+        "actual": "نمی شود",
+        "passed": true
+      },
+      {
+        "input": "رتبه‌بندی",
+        "expected": "رتبه بندی",
+        "actual": "رتبه بندی",
+        "passed": true
+      },
+      {
+        "input": "رتبم C۲ هست",
+        "expected": "رتبه من C2 هست",
+        "actual": "رتبه من C2 هست",
+        "passed": true
+      },
+      {
+        "input": "امتیازم ۵۲۰ شده",
+        "expected": "امتیاز من 520 شده",
+        "actual": "امتیاز من 520 شده",
+        "passed": true
+      },
+      {
+        "input": "قسطامو دادم",
+        "expected": "اقساط من را دادم",
+        "actual": "اقساط من را دادم",
+        "passed": true
+      }
+    ]
+  },
+  "idempotence": {
+    "passed": 10,
+    "total": 10,
+    "rate": 1.0,
+    "cases": [
+      {
+        "input": "میشه وام گرفت؟",
+        "once": "می شود وام گرفت؟",
+        "twice": "می شود وام گرفت؟",
+        "passed": true
+      },
+      {
+        "input": "نمیشه",
+        "once": "نمی شود",
+        "twice": "نمی شود",
+        "passed": true
+      },
+      {
+        "input": "رتبه‌بندی اعتباری",
+        "once": "رتبه بندی اعتباری",
+        "twice": "رتبه بندی اعتباری",
+        "passed": true
+      },
+      {
+        "input": "بانك ملي",
+        "once": "بانک ملی",
+        "twice": "بانک ملی",
+        "passed": true
+      },
+      {
+        "input": "امتیاز ۲۵۰",
+        "once": "امتیاز 250",
+        "twice": "امتیاز 250",
+        "passed": true
+      },
+      {
+        "input": "امتیاز ٢٥٠",
+        "once": "امتیاز 250",
+        "twice": "امتیاز 250",
+        "passed": true
+      },
+      {
+        "input": "رتبم C۲ شده",
+        "once": "رتبه من C2 شده",
+        "twice": "رتبه من C2 شده",
+        "passed": true
+      },
+      {
+        "input": "امتیازم ۵۲۰ شده",
+        "once": "امتیاز من 520 شده",
+        "twice": "امتیاز من 520 شده",
+        "passed": true
+      },
+      {
+        "input": "قسطامو پرداخت کردم",
+        "once": "اقساط من را پرداخت کردم",
+        "twice": "اقساط من را پرداخت کردم",
+        "passed": true
+      },
+      {
+        "input": "شرایط شخص حقوقی چیست؟",
+        "once": "شرایط شخص حقوقی چیست؟",
+        "twice": "شرایط شخص حقوقی چیست؟",
+        "passed": true
+      }
+    ]
+  },
+  "slots": {
+    "passed_cases": 12,
+    "total_cases": 12,
+    "case_accuracy": 1.0,
+    "field_accuracy": 1.0,
+    "cases": [
+      {
+        "query": "رتبه C۲ یعنی چی؟",
+        "expected": {
+          "RANK": "C2"
+        },
+        "actual": {
+          "BANK": null,
+          "RANK": "C2",
+          "PERSONA": null,
+          "DEBT": null,
+          "AMOUNT": null,
+          "TIME": false,
+          "NUMS": [],
+          "NEGATED": false
+        },
+        "passed": true,
+        "fields": {
+          "RANK": {
+            "expected": "C2",
+            "actual": "C2",
+            "passed": true
+          }
+        }
+      },
+      {
+        "query": "رتبه a1 چیست؟",
+        "expected": {
+          "RANK": "A1"
+        },
+        "actual": {
+          "BANK": null,
+          "RANK": "A1",
+          "PERSONA": null,
+          "DEBT": null,
+          "AMOUNT": null,
+          "TIME": false,
+          "NUMS": [],
+          "NEGATED": false
+        },
+        "passed": true,
+        "fields": {
+          "RANK": {
+            "expected": "A1",
+            "actual": "A1",
+            "passed": true
+          }
+        }
+      },
+      {
+        "query": "شرایط بانک توسعه صادرات چیست؟",
+        "expected": {
+          "BANK": "توسعه صادرات"
+        },
+        "actual": {
+          "BANK": "توسعه صادرات",
+          "RANK": null,
+          "PERSONA": null,
+          "DEBT": null,
+          "AMOUNT": null,
+          "TIME": false,
+          "NUMS": [],
+          "NEGATED": false
+        },
+        "passed": true,
+        "fields": {
+          "BANK": {
+            "expected": "توسعه صادرات",
+            "actual": "توسعه صادرات",
+            "passed": true
+          }
+        }
+      },
+      {
+        "query": "وام بانک ملی را چطور بررسی کنم؟",
+        "expected": {
+          "BANK": "ملی",
+          "DEBT": "تسهیلاتی"
+        },
+        "actual": {
+          "BANK": "ملی",
+          "RANK": null,
+          "PERSONA": null,
+          "DEBT": "تسهیلاتی",
+          "AMOUNT": null,
+          "TIME": false,
+          "NUMS": [],
+          "NEGATED": false
+        },
+        "passed": true,
+        "fields": {
+          "BANK": {
+            "expected": "ملی",
+            "actual": "ملی",
+            "passed": true
+          },
+          "DEBT": {
+            "expected": "تسهیلاتی",
+            "actual": "تسهیلاتی",
+            "passed": true
+          }
+        }
+      },
+      {
+        "query": "شرایط شخص حقوقی چیست؟",
+        "expected": {
+          "PERSONA": "حقوقی"
+        },
+        "actual": {
+          "BANK": null,
+          "RANK": null,
+          "PERSONA": "حقوقی",
+          "DEBT": null,
+          "AMOUNT": null,
+          "TIME": false,
+          "NUMS": [],
+          "NEGATED": false
+        },
+        "passed": true,
+        "fields": {
+          "PERSONA": {
+            "expected": "حقوقی",
+            "actual": "حقوقی",
+            "passed": true
+          }
+        }
+      },
+      {
+        "query": "برای شخص حقیقی چه شرایطی وجود دارد؟",
+        "expected": {
+          "PERSONA": "حقیقی"
+        },
+        "actual": {
+          "BANK": null,
+          "RANK": null,
+          "PERSONA": "حقیقی",
+          "DEBT": null,
+          "AMOUNT": null,
+          "TIME": false,
+          "NUMS": [],
+          "NEGATED": false
+        },
+        "passed": true,
+        "fields": {
+          "PERSONA": {
+            "expected": "حقیقی",
+            "actual": "حقیقی",
+            "passed": true
+          }
+        }
+      },
+      {
+        "query": "من بدهی مالیاتی ندارم",
+        "expected": {
+          "DEBT": "مالیاتی",
+          "NEGATED": true
+        },
+        "actual": {
+          "BANK": null,
+          "RANK": null,
+          "PERSONA": null,
+          "DEBT": "مالیاتی",
+          "AMOUNT": null,
+          "TIME": false,
+          "NUMS": [],
+          "NEGATED": true
+        },
+        "passed": true,
+        "fields": {
+          "DEBT": {
+            "expected": "مالیاتی",
+            "actual": "مالیاتی",
+            "passed": true
+          },
+          "NEGATED": {
+            "expected": true,
+            "actual": true,
+            "passed": true
+          }
+        }
+      },
+      {
+        "query": "چک برگشتی روی امتیاز چه اثری دارد؟",
+        "expected": {
+          "DEBT": "چک"
+        },
+        "actual": {
+          "BANK": null,
+          "RANK": null,
+          "PERSONA": null,
+          "DEBT": "چک",
+          "AMOUNT": null,
+          "TIME": false,
+          "NUMS": [],
+          "NEGATED": false
+        },
+        "passed": true,
+        "fields": {
+          "DEBT": {
+            "expected": "چک",
+            "actual": "چک",
+            "passed": true
+          }
+        }
+      },
+      {
+        "query": "اقساط وامم عقب افتاده",
+        "expected": {
+          "DEBT": "تسهیلاتی"
+        },
+        "actual": {
+          "BANK": null,
+          "RANK": null,
+          "PERSONA": null,
+          "DEBT": "تسهیلاتی",
+          "AMOUNT": null,
+          "TIME": false,
+          "NUMS": [],
+          "NEGATED": false
+        },
+        "passed": true,
+        "fields": {
+          "DEBT": {
+            "expected": "تسهیلاتی",
+            "actual": "تسهیلاتی",
+            "passed": true
+          }
+        }
+      },
+      {
+        "query": "شرکت محکومیت مالی دارد",
+        "expected": {
+          "PERSONA": "حقوقی",
+          "DEBT": "محکومیت"
+        },
+        "actual": {
+          "BANK": null,
+          "RANK": null,
+          "PERSONA": "حقوقی",
+          "DEBT": "محکومیت",
+          "AMOUNT": null,
+          "TIME": false,
+          "NUMS": [],
+          "NEGATED": false
+        },
+        "passed": true,
+        "fields": {
+          "PERSONA": {
+            "expected": "حقوقی",
+            "actual": "حقوقی",
+            "passed": true
+          },
+          "DEBT": {
+            "expected": "محکومیت",
+            "actual": "محکومیت",
+            "passed": true
+          }
+        }
+      },
+      {
+        "query": "امتیاز من ۵۲۰ است",
+        "expected": {
+          "AMOUNT": "520"
+        },
+        "actual": {
+          "BANK": null,
+          "RANK": null,
+          "PERSONA": null,
+          "DEBT": null,
+          "AMOUNT": "520",
+          "TIME": false,
+          "NUMS": [
+            "520"
+          ],
+          "NEGATED": false
+        },
+        "passed": true,
+        "fields": {
+          "AMOUNT": {
+            "expected": "520",
+            "actual": "520",
+            "passed": true
+          }
+        }
+      },
+      {
+        "query": "در ۶ ماه گذشته چه تاثیری دارد؟",
+        "expected": {
+          "AMOUNT": "6",
+          "TIME": true
+        },
+        "actual": {
+          "BANK": null,
+          "RANK": null,
+          "PERSONA": null,
+          "DEBT": null,
+          "AMOUNT": "6",
+          "TIME": true,
+          "NUMS": [
+            "6"
+          ],
+          "NEGATED": false
+        },
+        "passed": true,
+        "fields": {
+          "AMOUNT": {
+            "expected": "6",
+            "actual": "6",
+            "passed": true
+          },
+          "TIME": {
+            "expected": true,
+            "actual": true,
+            "passed": true
+          }
+        }
+      }
+    ]
+  },
+  "reranker": {
+    "cases": 4,
+    "baseline_top1_accuracy": 0.25,
+    "normalized_top1_accuracy": 1.0,
+    "improved": 3,
+    "regressed": 0,
+    "unchanged": 1,
+    "details": [
+      {
+        "name": "persian_digit",
+        "query": "امتیاز ۲۵۰ چه رتبه ای دارد؟",
+        "gold_doc_id": 1,
+        "baseline_rank": 2,
+        "normalized_rank": 1,
+        "change": "improved"
+      },
+      {
+        "name": "arabic_letters",
+        "query": "شرایط بانك ملي چیست؟",
+        "gold_doc_id": 3,
+        "baseline_rank": 2,
+        "normalized_rank": 1,
+        "change": "improved"
+      },
+      {
+        "name": "rank_digit_and_colloquial",
+        "query": "رتبه C۲ چیه؟",
+        "gold_doc_id": 5,
+        "baseline_rank": 2,
+        "normalized_rank": 1,
+        "change": "improved"
+      },
+      {
+        "name": "half_space",
+        "query": "چرا امتیازم کم می‌شود؟",
+        "gold_doc_id": 7,
+        "baseline_rank": 1,
+        "normalized_rank": 1,
+        "change": "unchanged"
+      }
+    ]
+  }
+}

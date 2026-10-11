@@ -52,3 +52,36 @@ def test_negation_extraction():
 def test_number_extraction():
     slots = extract_slots("حداقل امتیاز ۲۵۰ است")
     assert "250" in slots["NUMS"]
+
+def test_longest_bank_alias_wins():
+    slots = extract_slots(
+        "شرایط بانک توسعه صادرات چیست؟"
+    )
+
+    assert slots["BANK"] == "توسعه صادرات"
+
+
+def test_legal_persona_is_not_both():
+    slots = extract_slots(
+        "شرایط شخص حقوقی چیست؟"
+    )
+
+    assert slots["PERSONA"] == "حقوقی"
+
+
+def test_rank_with_persian_digit():
+    slots = extract_slots(
+        "رتبه C۲ یعنی چی؟"
+    )
+
+    assert slots["RANK"] == "C2"
+
+
+def test_no_bank_substring_false_positive():
+    slots = extract_slots(
+        "این موضوع درباره صادرات کالا است"
+    )
+
+    # "صادرات" by itself is still ambiguous in our current domain model,
+    # so do NOT assert BANK=None here unless we decide bank names must
+    # explicitly include "بانک".

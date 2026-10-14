@@ -1,0 +1,314 @@
+{
+  "total": 18,
+  "accuracy": 1.0,
+  "clarify_accuracy": 1.0,
+  "answer_accuracy": 1.0,
+  "cases": [
+    {
+      "id": "a1",
+      "query": "بدهی دارم، روی امتیازم چه تاثیری داره؟",
+      "expected": "clarify",
+      "predicted": "clarify",
+      "passed": true,
+      "result": {
+        "status": "clarify",
+        "question": "منظورتان کدام نوع بدهی است؟",
+        "options": [
+          "بدهی تسهیلاتی / وام",
+          "بدهی مالیاتی",
+          "چک برگشتی",
+          "محکومیت مالی",
+          "نمی دانم"
+        ]
+      }
+    },
+    {
+      "id": "a2",
+      "query": "بدهی‌ام را پرداخت کردم، کی از گزارشم حذف میشه؟",
+      "expected": "clarify",
+      "predicted": "clarify",
+      "passed": true,
+      "result": {
+        "status": "clarify",
+        "question": "منظورتان کدام نوع بدهی است؟",
+        "options": [
+          "بدهی تسهیلاتی / وام",
+          "بدهی مالیاتی",
+          "چک برگشتی",
+          "محکومیت مالی",
+          "نمی دانم"
+        ]
+      }
+    },
+    {
+      "id": "a3",
+      "query": "یه بدهی توی سابقه‌ام دارم، چطور پاکش کنم؟",
+      "expected": "clarify",
+      "predicted": "clarify",
+      "passed": true,
+      "result": {
+        "status": "clarify",
+        "question": "منظورتان کدام نوع بدهی است؟",
+        "options": [
+          "بدهی تسهیلاتی / وام",
+          "بدهی مالیاتی",
+          "چک برگشتی",
+          "محکومیت مالی",
+          "نمی دانم"
+        ]
+      }
+    },
+    {
+      "id": "a4",
+      "query": "شرکتم بدهی داره، چه تاثیری روی رتبه‌اش میذاره؟",
+      "expected": "clarify",
+      "predicted": "clarify",
+      "passed": true,
+      "result": {
+        "status": "clarify",
+        "question": "منظورتان کدام نوع بدهی است؟",
+        "options": [
+          "بدهی تسهیلاتی / وام",
+          "بدهی مالیاتی",
+          "چک برگشتی",
+          "محکومیت مالی",
+          "نمی دانم"
+        ]
+      }
+    },
+    {
+      "id": "a5",
+      "query": "رتبه C3 دارم، بهم وام میدن؟",
+      "expected": "clarify",
+      "predicted": "clarify",
+      "passed": true,
+      "result": {
+        "status": "clarify",
+        "question": "برای کدام بانک درباره دریافت وام یا تسهیلات سؤال دارید؟",
+        "options": [
+          "ملی",
+          "صادرات",
+          "تجارت",
+          "ملت",
+          "سپه",
+          "پاسارگاد",
+          "توسعه صادرات",
+          "نمی دانم"
+        ]
+      }
+    },
+    {
+      "id": "a6",
+      "query": "با رتبه E3 میتونم وام بگیرم؟",
+      "expected": "clarify",
+      "predicted": "clarify",
+      "passed": true,
+      "result": {
+        "status": "clarify",
+        "question": "برای کدام بانک درباره دریافت وام یا تسهیلات سؤال دارید؟",
+        "options": [
+          "ملی",
+          "صادرات",
+          "تجارت",
+          "ملت",
+          "سپه",
+          "پاسارگاد",
+          "توسعه صادرات",
+          "نمی دانم"
+        ]
+      }
+    },
+    {
+      "id": "a7",
+      "query": "امتیازم 520 شده، میتونم تسهیلات بگیرم؟",
+      "expected": "clarify",
+      "predicted": "clarify",
+      "passed": true,
+      "result": {
+        "status": "clarify",
+        "question": "برای کدام بانک درباره دریافت وام یا تسهیلات سؤال دارید؟",
+        "options": [
+          "ملی",
+          "صادرات",
+          "تجارت",
+          "ملت",
+          "سپه",
+          "پاسارگاد",
+          "توسعه صادرات",
+          "نمی دانم"
+        ]
+      }
+    },
+    {
+      "id": "a8",
+      "query": "رتبه B2 دارم. برای دریافت وام قبولم میکنن؟",
+      "expected": "clarify",
+      "predicted": "clarify",
+      "passed": true,
+      "result": {
+        "status": "clarify",
+        "question": "برای کدام بانک درباره دریافت وام یا تسهیلات سؤال دارید؟",
+        "options": [
+          "ملی",
+          "صادرات",
+          "تجارت",
+          "ملت",
+          "سپه",
+          "پاسارگاد",
+          "توسعه صادرات",
+          "نمی دانم"
+        ]
+      }
+    },
+    {
+      "id": "s1",
+      "query": "بدهی مالیاتی دارم، چه تاثیری روی امتیازم داره؟",
+      "expected": "answer",
+      "predicted": "answer",
+      "passed": true,
+      "result": {
+        "status": "answer",
+        "brief": "یک پاسخ نمونه از اطلاعات اعتباری",
+        "cites": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "s2",
+      "query": "چک برگشتی دارم، چطور رفع سوءاثر کنم؟",
+      "expected": "answer",
+      "predicted": "answer",
+      "passed": true,
+      "result": {
+        "status": "answer",
+        "brief": "یک پاسخ نمونه از اطلاعات اعتباری",
+        "cites": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "query": "اقساط وامم عقب افتاده، چه تاثیری روی رتبه‌ام داره؟",
+      "expected": "answer",
+      "predicted": "answer",
+      "passed": true,
+      "result": {
+        "status": "answer",
+        "brief": "یک پاسخ نمونه از اطلاعات اعتباری",
+        "cites": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "query": "شرکت محکومیت مالی دارد، چه اثری روی رتبه دارد؟",
+      "expected": "answer",
+      "predicted": "answer",
+      "passed": true,
+      "result": {
+        "status": "answer",
+        "brief": "یک پاسخ نمونه از اطلاعات اعتباری",
+        "cites": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "query": "بانک ملی به رتبه C3 وام میده؟",
+      "expected": "answer",
+      "predicted": "answer",
+      "passed": true,
+      "result": {
+        "status": "answer",
+        "brief": "یک پاسخ نمونه از اطلاعات اعتباری",
+        "cites": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "query": "بانک صادرات به رتبه E3 تسهیلات میده؟",
+      "expected": "answer",
+      "predicted": "answer",
+      "passed": true,
+      "result": {
+        "status": "answer",
+        "brief": "یک پاسخ نمونه از اطلاعات اعتباری",
+        "cites": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "query": "رتبه C3 یعنی چی؟",
+      "expected": "answer",
+      "predicted": "answer",
+      "passed": true,
+      "result": {
+        "status": "answer",
+        "brief": "یک پاسخ نمونه از اطلاعات اعتباری",
+        "cites": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "query": "۴۸۰ شدم. چرا؟",
+      "expected": "answer",
+      "predicted": "answer",
+      "passed": true,
+      "result": {
+        "status": "answer",
+        "brief": "یک پاسخ نمونه از اطلاعات اعتباری",
+        "cites": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "s9",
+      "query": "اگر شرکت محکومیت مالی داشته باشد، چقدر رتبه‌اش کاهش پیدا میکنه؟",
+      "expected": "answer",
+      "predicted": "answer",
+      "passed": true,
+      "result": {
+        "status": "answer",
+        "brief": "یک پاسخ نمونه از اطلاعات اعتباری",
+        "cites": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "s10",
+      "query": "نمی‌خوام این چکم که برگشت خورده تو سابقه‌م بیاد، چه طوری حذفش کنم؟",
+      "expected": "answer",
+      "predicted": "answer",
+      "passed": true,
+      "result": {
+        "status": "answer",
+        "brief": "یک پاسخ نمونه از اطلاعات اعتباری",
+        "cites": [
+          1,
+          2
+        ]
+      }
+    }
+  ]
+}

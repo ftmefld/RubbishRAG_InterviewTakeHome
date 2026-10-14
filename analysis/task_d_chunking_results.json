@@ -1,0 +1,78 @@
+{
+  "documents": 442,
+  "baseline": {
+    "name": "fixed_300",
+    "length": {
+      "chunks": 494,
+      "mean_length": 199.9655870445344,
+      "median_length": 214.5,
+      "p95_length": 300,
+      "max_length": 300,
+      "min_length": 3
+    },
+    "boundaries": {
+      "internal_boundaries": 164,
+      "natural_boundaries": 3,
+      "bad_boundaries": 161,
+      "bad_boundary_rate": 0.9817073170731707
+    },
+    "sentences": {
+      "eligible_sentences": 794,
+      "preserved_sentences": 653,
+      "preservation_rate": 0.8224181360201511
+    },
+    "numeric_phrases": {
+      "numeric_phrases": 172,
+      "preserved": 171,
+      "preservation_rate": 0.9941860465116279,
+      "broken_examples": [
+        {
+          "doc_id": "257",
+          "phrase": "۰۲۱۴۱۵۲۲۲۲"
+        }
+      ]
+    },
+    "metadata": {
+      "total_chunks": 494,
+      "retrieval_visible_prefixes": 0,
+      "prefix_coverage": 0.0,
+      "category_metadata_chunks": 492,
+      "keyword_metadata_chunks": 0
+    }
+  },
+  "improved": {
+    "name": "boundary_metadata",
+    "length": {
+      "chunks": 527,
+      "mean_length": 256.7495256166983,
+      "median_length": 264,
+      "p95_length": 348,
+      "max_length": 360,
+      "min_length": 27
+    },
+    "boundaries": {
+      "internal_boundaries": 197,
+      "natural_boundaries": 194,
+      "bad_boundaries": 3,
+      "bad_boundary_rate": 0.015228426395939087
+    },
+    "sentences": {
+      "eligible_sentences": 794,
+      "preserved_sentences": 752,
+      "preservation_rate": 0.947103274559194
+    },
+    "numeric_phrases": {
+      "numeric_phrases": 172,
+      "preserved": 172,
+      "preservation_rate": 1.0,
+      "broken_examples": []
+    },
+    "metadata": {
+      "total_chunks": 527,
+      "retrieval_visible_prefixes": 527,
+      "prefix_coverage": 1.0,
+      "category_metadata_chunks": 525,
+      "keyword_metadata_chunks": 523
+    }
+  }
+}

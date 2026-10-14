@@ -1,0 +1,438 @@
+{
+  "queries": 20,
+  "retrieved": {
+    "queries_with_duplicates": 2,
+    "duplicate_slot_rate": 0.02,
+    "average_unique_top3": 3.0
+  },
+  "reranked": {
+    "queries_with_duplicates": 2,
+    "duplicate_slot_rate": 0.02,
+    "average_unique_top3": 2.95
+  },
+  "hit_at_1": 0.35,
+  "hit_at_3": 0.4,
+  "hit_at_5": 0.55,
+  "details": [
+    {
+      "id": "v0",
+      "retrieved_top5": [
+        66,
+        271,
+        173,
+        118,
+        9002
+      ],
+      "reranked_top5": [
+        66,
+        118,
+        271,
+        173,
+        9002
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v1",
+      "retrieved_top5": [
+        330,
+        9106,
+        56,
+        238,
+        234
+      ],
+      "reranked_top5": [
+        56,
+        234,
+        238,
+        330,
+        9106
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v2",
+      "retrieved_top5": [
+        282,
+        244,
+        225,
+        230,
+        181
+      ],
+      "reranked_top5": [
+        282,
+        230,
+        244,
+        181,
+        225
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v3",
+      "retrieved_top5": [
+        110,
+        0,
+        1,
+        1,
+        2
+      ],
+      "reranked_top5": [
+        110,
+        0,
+        1,
+        1,
+        2
+      ],
+      "retrieved_duplicate_slots": 1,
+      "reranked_duplicate_slots": 1,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v4",
+      "retrieved_top5": [
+        137,
+        288,
+        146,
+        264,
+        291
+      ],
+      "reranked_top5": [
+        137,
+        288,
+        146,
+        291,
+        264
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v5",
+      "retrieved_top5": [
+        276,
+        299,
+        269,
+        324,
+        51
+      ],
+      "reranked_top5": [
+        276,
+        269,
+        51,
+        299,
+        324
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v6",
+      "retrieved_top5": [
+        266,
+        121,
+        51,
+        122,
+        282
+      ],
+      "reranked_top5": [
+        51,
+        266,
+        121,
+        122,
+        282
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v7",
+      "retrieved_top5": [
+        76,
+        156,
+        182,
+        84,
+        237
+      ],
+      "reranked_top5": [
+        76,
+        182,
+        156,
+        84,
+        237
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v8",
+      "retrieved_top5": [
+        211,
+        290,
+        275,
+        294,
+        79
+      ],
+      "reranked_top5": [
+        211,
+        290,
+        294,
+        79,
+        275
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v9",
+      "retrieved_top5": [
+        47,
+        208,
+        292,
+        47,
+        298
+      ],
+      "reranked_top5": [
+        47,
+        292,
+        47,
+        298,
+        208
+      ],
+      "retrieved_duplicate_slots": 1,
+      "reranked_duplicate_slots": 1,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 2
+    },
+    {
+      "id": "v10",
+      "retrieved_top5": [
+        208,
+        287,
+        185,
+        234,
+        119
+      ],
+      "reranked_top5": [
+        208,
+        287,
+        185,
+        234,
+        119
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v11",
+      "retrieved_top5": [
+        221,
+        181,
+        39,
+        194,
+        22
+      ],
+      "reranked_top5": [
+        221,
+        181,
+        194,
+        22,
+        39
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v12",
+      "retrieved_top5": [
+        9000,
+        9003,
+        85,
+        301,
+        328
+      ],
+      "reranked_top5": [
+        85,
+        301,
+        328,
+        9000,
+        9003
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v13",
+      "retrieved_top5": [
+        262,
+        283,
+        281,
+        70,
+        31
+      ],
+      "reranked_top5": [
+        262,
+        70,
+        283,
+        281,
+        31
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v14",
+      "retrieved_top5": [
+        8,
+        80,
+        130,
+        49,
+        19
+      ],
+      "reranked_top5": [
+        8,
+        80,
+        130,
+        19,
+        49
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v15",
+      "retrieved_top5": [
+        9004,
+        108,
+        91,
+        92,
+        245
+      ],
+      "reranked_top5": [
+        108,
+        245,
+        91,
+        92,
+        9004
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v16",
+      "retrieved_top5": [
+        65,
+        138,
+        66,
+        184,
+        263
+      ],
+      "reranked_top5": [
+        65,
+        66,
+        184,
+        138,
+        263
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v17",
+      "retrieved_top5": [
+        173,
+        178,
+        22,
+        287,
+        304
+      ],
+      "reranked_top5": [
+        173,
+        178,
+        287,
+        304,
+        22
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v18",
+      "retrieved_top5": [
+        16,
+        15,
+        9001,
+        140,
+        262
+      ],
+      "reranked_top5": [
+        16,
+        15,
+        140,
+        262,
+        9001
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    },
+    {
+      "id": "v19",
+      "retrieved_top5": [
+        15,
+        133,
+        165,
+        166,
+        36
+      ],
+      "reranked_top5": [
+        15,
+        133,
+        165,
+        166,
+        36
+      ],
+      "retrieved_duplicate_slots": 0,
+      "reranked_duplicate_slots": 0,
+      "retrieved_top3_unique_docs": 3,
+      "reranked_top3_unique_docs": 3
+    }
+  ]
+}

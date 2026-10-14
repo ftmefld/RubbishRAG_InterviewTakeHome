@@ -1,0 +1,91 @@
+{
+  "accuracy": 1.0,
+  "correct": 8,
+  "total": 8,
+  "false_positive": 0,
+  "false_negative": 0,
+  "cases": [
+    {
+      "id": "c1",
+      "query": "شرکت سابقه تاخیر ندارد",
+      "candidate": "شرکت سابقه تاخیر دارد",
+      "expected_conflict": true,
+      "predicted_conflict": true,
+      "conflicting_concepts": [
+        "سابقه",
+        "تاخیر"
+      ],
+      "passed": true
+    },
+    {
+      "id": "c2",
+      "query": "شرکت بدهی ندارد",
+      "candidate": "شرکت بدهی دارد",
+      "expected_conflict": true,
+      "predicted_conflict": true,
+      "conflicting_concepts": [
+        "بدهی"
+      ],
+      "passed": true
+    },
+    {
+      "id": "c3",
+      "query": "چک در گزارش ثبت نشده",
+      "candidate": "چک در گزارش ثبت شده است",
+      "expected_conflict": true,
+      "predicted_conflict": true,
+      "conflicting_concepts": [
+        "ثبت"
+      ],
+      "passed": true
+    },
+    {
+      "id": "c4",
+      "query": "شرکت فاقد سابقه مالیاتی است",
+      "candidate": "شرکت سابقه مالیاتی دارد",
+      "expected_conflict": true,
+      "predicted_conflict": true,
+      "conflicting_concepts": [
+        "سابقه",
+        "مالیات"
+      ],
+      "passed": true
+    },
+    {
+      "id": "s1",
+      "query": "شرکت سابقه تاخیر ندارد",
+      "candidate": "شرکت هیچ سابقه تاخیری ندارد",
+      "expected_conflict": false,
+      "predicted_conflict": false,
+      "conflicting_concepts": [],
+      "passed": true
+    },
+    {
+      "id": "s2",
+      "query": "شرکت بدهی ندارد",
+      "candidate": "شرکت فاقد بدهی است",
+      "expected_conflict": false,
+      "predicted_conflict": false,
+      "conflicting_concepts": [],
+      "passed": true
+    },
+    {
+      "id": "n1",
+      "query": "نمی خواهم چک برگشتی در سابقه ام باشد",
+      "candidate": "چک برگشتی روی امتیاز اعتباری تاثیر دارد",
+      "expected_conflict": false,
+      "predicted_conflict": false,
+      "conflicting_concepts": [],
+      "passed": true
+    },
+    {
+      "id": "n2",
+      "query": "شرکت سابقه تاخیر ندارد، چرا امتیازش بالا نیست؟",
+      "candidate": "عوامل مختلفی مانند مالیات، تسهیلات و چک بر امتیاز اثر دارند",
+      "expected_conflict": false,
+      "predicted_conflict": false,
+      "conflicting_concepts": [],
+      "passed": true
+    }
+  ]
+}

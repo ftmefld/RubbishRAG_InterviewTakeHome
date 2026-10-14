@@ -1,0 +1,489 @@
+{
+  "queries": 20,
+  "raw_poison_hits": 6,
+  "queries_with_poison_raw": 5,
+  "queries_with_poison_after": 0,
+  "poison_top3_after": 0,
+  "total_top3": 60,
+  "poison_citation_rate": 0.0,
+  "raw_top1_rate": 0.25,
+  "reranked_top1_rate": 0.35,
+  "raw_hit3": 0.4,
+  "reranked_hit3": 0.4,
+  "improved": 2,
+  "regressed": 1,
+  "unchanged": 17,
+  "details": [
+    {
+      "id": "v0",
+      "gold_doc_id": 173,
+      "raw_gold_rank": 3,
+      "reranked_gold_rank": 4,
+      "change": "regressed",
+      "raw_poison_ids": [
+        9002
+      ],
+      "top3_after": [
+        {
+          "doc_id": 66,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 118,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 271,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v1",
+      "gold_doc_id": 56,
+      "raw_gold_rank": 4,
+      "reranked_gold_rank": 1,
+      "change": "improved",
+      "raw_poison_ids": [
+        9106
+      ],
+      "top3_after": [
+        {
+          "doc_id": 56,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 234,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 330,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v2",
+      "gold_doc_id": 282,
+      "raw_gold_rank": 1,
+      "reranked_gold_rank": 1,
+      "change": "unchanged",
+      "raw_poison_ids": [],
+      "top3_after": [
+        {
+          "doc_id": 282,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 230,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 244,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v3",
+      "gold_doc_id": 311,
+      "raw_gold_rank": null,
+      "reranked_gold_rank": null,
+      "change": "unchanged",
+      "raw_poison_ids": [],
+      "top3_after": [
+        {
+          "doc_id": 110,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 0,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 1,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v4",
+      "gold_doc_id": 137,
+      "raw_gold_rank": 1,
+      "reranked_gold_rank": 1,
+      "change": "unchanged",
+      "raw_poison_ids": [],
+      "top3_after": [
+        {
+          "doc_id": 137,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 288,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 146,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v5",
+      "gold_doc_id": 9,
+      "raw_gold_rank": null,
+      "reranked_gold_rank": null,
+      "change": "unchanged",
+      "raw_poison_ids": [],
+      "top3_after": [
+        {
+          "doc_id": 276,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 269,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 51,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v6",
+      "gold_doc_id": 86,
+      "raw_gold_rank": null,
+      "reranked_gold_rank": null,
+      "change": "unchanged",
+      "raw_poison_ids": [],
+      "top3_after": [
+        {
+          "doc_id": 51,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 266,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 121,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v7",
+      "gold_doc_id": 76,
+      "raw_gold_rank": 1,
+      "reranked_gold_rank": 1,
+      "change": "unchanged",
+      "raw_poison_ids": [],
+      "top3_after": [
+        {
+          "doc_id": 76,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 182,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 156,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v8",
+      "gold_doc_id": 290,
+      "raw_gold_rank": 2,
+      "reranked_gold_rank": 2,
+      "change": "unchanged",
+      "raw_poison_ids": [],
+      "top3_after": [
+        {
+          "doc_id": 211,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 290,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 294,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v9",
+      "gold_doc_id": 172,
+      "raw_gold_rank": null,
+      "reranked_gold_rank": null,
+      "change": "unchanged",
+      "raw_poison_ids": [],
+      "top3_after": [
+        {
+          "doc_id": 47,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 292,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 47,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v10",
+      "gold_doc_id": 234,
+      "raw_gold_rank": 4,
+      "reranked_gold_rank": 4,
+      "change": "unchanged",
+      "raw_poison_ids": [],
+      "top3_after": [
+        {
+          "doc_id": 208,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 287,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 185,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v11",
+      "gold_doc_id": 250,
+      "raw_gold_rank": null,
+      "reranked_gold_rank": null,
+      "change": "unchanged",
+      "raw_poison_ids": [],
+      "top3_after": [
+        {
+          "doc_id": 221,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 181,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 194,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v12",
+      "gold_doc_id": 34,
+      "raw_gold_rank": null,
+      "reranked_gold_rank": null,
+      "change": "unchanged",
+      "raw_poison_ids": [
+        9000,
+        9003
+      ],
+      "top3_after": [
+        {
+          "doc_id": 301,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 85,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 301,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v13",
+      "gold_doc_id": 262,
+      "raw_gold_rank": 1,
+      "reranked_gold_rank": 1,
+      "change": "unchanged",
+      "raw_poison_ids": [],
+      "top3_after": [
+        {
+          "doc_id": 262,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 70,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 283,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v14",
+      "gold_doc_id": 8,
+      "raw_gold_rank": 1,
+      "reranked_gold_rank": 1,
+      "change": "unchanged",
+      "raw_poison_ids": [],
+      "top3_after": [
+        {
+          "doc_id": 8,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 80,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 130,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v15",
+      "gold_doc_id": 108,
+      "raw_gold_rank": 2,
+      "reranked_gold_rank": 1,
+      "change": "improved",
+      "raw_poison_ids": [
+        9004
+      ],
+      "top3_after": [
+        {
+          "doc_id": 108,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 245,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 91,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v16",
+      "gold_doc_id": 123,
+      "raw_gold_rank": null,
+      "reranked_gold_rank": null,
+      "change": "unchanged",
+      "raw_poison_ids": [],
+      "top3_after": [
+        {
+          "doc_id": 65,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 66,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 184,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v17",
+      "gold_doc_id": 237,
+      "raw_gold_rank": null,
+      "reranked_gold_rank": null,
+      "change": "unchanged",
+      "raw_poison_ids": [],
+      "top3_after": [
+        {
+          "doc_id": 173,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 178,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 287,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v18",
+      "gold_doc_id": 67,
+      "raw_gold_rank": null,
+      "reranked_gold_rank": null,
+      "change": "unchanged",
+      "raw_poison_ids": [
+        9001
+      ],
+      "top3_after": [
+        {
+          "doc_id": 16,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 15,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 140,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    },
+    {
+      "id": "v19",
+      "gold_doc_id": 36,
+      "raw_gold_rank": 5,
+      "reranked_gold_rank": 5,
+      "change": "unchanged",
+      "raw_poison_ids": [],
+      "top3_after": [
+        {
+          "doc_id": 15,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 133,
+          "verified_corpus": true
+        },
+        {
+          "doc_id": 165,
+          "verified_corpus": true
+        }
+      ],
+      "poison_after_ids": []
+    }
+  ]
+}

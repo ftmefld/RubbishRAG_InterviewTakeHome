@@ -10,3 +10,10 @@ server/hidden_eval.json
 server/server_index.json
 .candidate.json
 .DS_Store
+
+# Local development files
+venv/
+output.txt
+test.txt
+utf8_test.txt
+tatus
